@@ -290,9 +290,73 @@ input[type=submit]:hover{
     }
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
     *{
         box-sizing: border-box;
     }
-   
+    #name{
+        float: left;
+        background: #4aaaa5;
+        width:35%;
+        height:113px;
+        font-size: 40px;
+        text-align: center;
+        padding: 5%;
+        bottom:0px;
+        margin:0px 0px 0px 0px;
+        color:#ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        position: static;
+        top: 20;
+        width:100%;
+
+    }
+    
+    nav a{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: #777777;
+        border-right: 1px solid #efefef;
+        width:30%;
+    
+    }
+    a:hover{
+        color:red;
+    }
+    
+    #links{
+        float: right;
+        width: 50%;
+        height: 70px;
+        padding: 20px;
+        padding-right: 0px;
+        margin: 20px 0px 20px 0px;
+        font-size: 20px;
+
+    }
+    
+    a:last-child{
+        border-right: none;
+    }
+
+    header{
+        background: #ffffff;
+        height: 115px;
+        margin-bottom: 10px;
+        border-bottom: 3px solid #cccccc;
+        width:100%;
+        /*z-index: 1;*/
+        position:static;
+    }
+    .mainarea{
+        background: #ffffff;
+        margin: 20px auto 0px auto;
+        width: 100%;
+        border:1px solid #dddddd;
+    }
 }
