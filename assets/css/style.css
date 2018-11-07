@@ -191,7 +191,7 @@ input[type=submit]:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width: 640px){
     *{
         box-sizing: border-box;
     }
@@ -290,7 +290,7 @@ input[type=submit]:hover{
     }
 }
 
-@media screen and (max-width:768px){
+ @media screen and (max-width:768px) and (min-width:640px){ 
     *{
         box-sizing: border-box;
     }
@@ -350,7 +350,6 @@ input[type=submit]:hover{
         margin-bottom: 10px;
         border-bottom: 3px solid #cccccc;
         width:100%;
-        /*z-index: 1;*/
         position:static;
     }
     .mainarea{
