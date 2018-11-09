@@ -264,7 +264,7 @@ input[type=submit]:hover{
         font-size: 18px;
     }
     footer{
-        position: relative;
+        position: fixed;
         width:100%;
     }
     .port{
@@ -339,6 +339,12 @@ input[type=submit]:hover{
         font-size: 20px;
 
     }
+    .mainarea{
+        background: #ffffff;
+        margin: 20px auto 0px auto;
+        width: 100%;
+        border:1px solid #dddddd;
+    }
     
     a:last-child{
         border-right: none;
@@ -352,11 +358,12 @@ input[type=submit]:hover{
         width:100%;
         position:static;
     }
-    .mainarea{
+    .port{
         background: #ffffff;
-        margin: 20px auto 0px auto;
+        margin: 0px auto 0px auto;
         width: 100%;
         border:1px solid #dddddd;
+        height:700px;
     }
 }
 @media screen and (max-width:980px) and (min-width:768px){ 
@@ -420,6 +427,12 @@ input[type=submit]:hover{
         border-bottom: 3px solid #cccccc;
         width:100%;
         position:static;
+    }
+    .mainarea{
+        background: #ffffff;
+        margin: 20px auto 0px auto;
+        width: 93%;
+        border:1px solid #dddddd;
     }
 
 }
