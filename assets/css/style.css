@@ -190,6 +190,12 @@ input[type=submit]:hover{
     margin-left: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+
+}
 
 @media screen and (max-width: 640px){
     *{
